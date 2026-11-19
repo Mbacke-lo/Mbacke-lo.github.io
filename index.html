@@ -11,9 +11,11 @@
     header p { color: #94a3b8; font-size: 1.2em; margin-top: 10px; }
     .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
     .card { background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-    h2 { color: #0f172a; border-bottom: 2px solid #3b82f6; padding-bottom: 8px; }
-    .skills span { display: inline-block; background: #e0f2fe; color: #0369a1; padding: 6px 12px; border-radius: 20px; margin: 5px 5px 0 0; font-weight: bold; font-size: 0.9em; }
+    h2 { color: #0f172a; border-bottom: 2px solid #3b82f6; padding-bottom: 8px; margin-top: 0; }
+    h3 { color: #1e293b; font-size: 1.05em; margin-bottom: 8px; margin-top: 18px; }
+    .skills span { display: inline-block; background: #e0f2fe; color: #0369a1; padding: 6px 12px; border-radius: 20px; margin: 4px 4px 0 0; font-weight: 600; font-size: 0.9em; }
     .btn { display: inline-block; background: #3b82f6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; font-weight: bold; }
+    .btn:hover { background: #2563eb; }
     footer { text-align: center; padding: 20px; color: #64748b; font-size: 0.9em; }
   </style>
 </head>
@@ -27,38 +29,70 @@
   <div class="container">
     <div class="card">
       <h2>À propos de moi</h2>
-      <p>Passionné par l'administration système, la sécurité et les infrastructures réseaux, je recherche actuellement un stage pour mettre en pratique mes compétences techniques et contribuer à des projets concrets.</p>
+      <p>Passionné par l'administration système, la sécurité et les infrastructures réseaux, je recherche actuellement un stage pour mettre en pratique mes compétences techniques et contribuer efficacement au sein d'une équipe informatique.</p>
       <a href="cv.pdf" class="btn" target="_blank">Télécharger mon CV (PDF)</a>
     </div>
 
     <div class="card">
       <h2>Compétences Techniques</h2>
+      
+      <h3>Systèmes d'exploitation</h3>
       <div class="skills">
-        <span>Administration Réseau</span>
-        <span>Windows Server / Linux</span>
-        <span>TCP/IP, DNS, DHCP</span>
-        <span>Support Technique</span>
-        <span>Sécurité Informatique</span>
-        <span>HTML / CSS / Git</span>
+        <span>Windows 10 / 11</span>
+        <span>Windows Server (Active Directory, GPO)</span>
+        <span>Linux (Ubuntu, Debian)</span>
+      </div>
+
+      <h3>Réseaux & Infrastructures</h3>
+      <div class="skills">
+        <span>Cisco Packet Tracer</span>
+        <span>Configuration Routeurs & Switchs</span>
+        <span>VLAN & Routage</span>
+        <span>TCP/IP, DNS, DHCP, VPN</span>
+      </div>
+
+      <h3>Virtualisation</h3>
+      <div class="skills">
+        <span>VMware Workstation</span>
+        <span>VirtualBox</span>
+        <span>Hyper-V</span>
+      </div>
+
+      <h3>Sécurité & Support</h3>
+      <div class="skills">
+        <span>Pare-feu (Firewall)</span>
+        <span>Dépannage matériel & logiciel</span>
+        <span>Gestion des droits d'accès</span>
+        <span>Sauvegarde & Restauration</span>
+      </div>
+
+      <h3>Outils & Langages</h3>
+      <div class="skills">
+        <span>Bash / PowerShell</span>
+        <span>Python</span>
+        <span>HTML / CSS</span>
+        <span>Git / GitHub</span>
+        <span>Microsoft 365</span>
       </div>
     </div>
 
     <div class="card">
-      <h2>Mes Projets & Travaux</h2>
-      <p><strong>Configuration d'un réseau d'entreprise :</strong> Mise en place de VLANs, routage et sécurisation des accès.</p>
-      <p><strong>Déploiement de serveurs :</strong> Installation et configuration de services Active Directory et Linux.</p>
+      <h2>Mes Projets Scolaires & Travaux Pratiques</h2>
+      <p><strong>Simulation et architecture réseau (Cisco Packet Tracer) :</strong> Conception d'un réseau d'entreprise segmenté avec création de VLANs, routage inter-VLAN et attribution automatique d'adresses via DHCP.</p>
+      <p><strong>Déploiement d'un environnement Windows Server :</strong> Installation et configuration d'un contrôleur de domaine Active Directory, gestion des comptes utilisateurs et application de stratégies de groupe (GPO).</p>
+      <p><strong>Infrastructure virtualisée sous Linux :</strong> Création et administration de machines virtuelles Ubuntu/Debian sous VMware/VirtualBox avec configuration des services réseau et sécurisation des accès.</p>
     </div>
 
     <div class="card">
       <h2>Contact</h2>
-      <p>Disponible pour un entretien ou une opportunité de stage.</p>
-      <p>📧 Email : votre-email@exemple.com</p>
+      <p>Disponible pour un entretien ou une opportunité de stage en informatique et réseaux.</p>
+      <p>📧 Courriel : votre-email@exemple.com</p>
       <p>🔗 LinkedIn : ://linkedin.com</p>
     </div>
   </div>
 
   <footer>
-    © 2026 Mbacke Lo - Hébergé sur GitHub Pages
+    © 2026 Mbacke Lo - Portfolio hébergé sur GitHub Pages
   </footer>
 
 </body>
